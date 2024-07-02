@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Grade</title>
+</head>
+<body>
+    <script>
+        let per = parseInt(prompt("Enter your percentage"));
+
+        if (per <= 100 && per >= 90) 
+        {
+            document.write("Grade: A");
+        } 
+        else if (per <= 89 && per > 80) 
+        {
+            document.write("Grade: B");
+        }
+        else if (per <= 79 && per > 65)
+        {
+            document.write("Grade: C");
+        }
+        else if (per <= 64 && per >= 55) 
+        {
+            document.write("Grade: D");
+        }
+        else if (per <= 54 && per >= 35) 
+        {
+            document.write("Grade: E");
+        }
+        else if(per<35)
+        {
+            document.write("Better Luck Next Time, You fail!!");
+        }
+        else {
+            document.write("Invalid Percentage");
+        }
+    </script>
+</body>
+</html>
